@@ -1,0 +1,137 @@
+@import "../fonts/poppins/stylesheet.css";
+@import "../fonts/montserrat/stylesheet.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1112px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.header__title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  z-index: 20;
+}
+.header__navbar {
+  z-index: 20;
+  display: flex;
+  column-gap: 36px;
+}
+.header__navbar-list {
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+.header__navbar-link {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+.header__navbar-link:hover {
+  color: #FE8934;
+  transition: 0.2s;
+}
+
+.leftBar {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+
+.circle {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #FE8934;
+  border-radius: 50%;
+  transition: 0.5s;
+  z-index: 20;
+}
+
+.circle:hover {
+  transition: 1s;
+  position: relative;
+  background: url("../images/header/logo.jpeg") center/cover no-repeat;
+}
+
+.about {
+  background-color: #F8F8FA;
+  padding: 30px 0;
+}
+.about__title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 128.5%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about__subtitle {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 158.5%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.europlanning {
+  background-color: #E5E5E5;
+  padding: 30px 0;
+}
+.europlanning__container {
+  display: flex;
+  column-gap: 10px;
+  margin-bottom: 50px;
+}
+.europlanning__gallery {
+  width: 70%;
+}
+.europlanning__company {
+  width: 30%;
+}
+.europlanning__company_title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 128.5%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+.europlanning__company_subtitle {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 158.5%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+/*# sourceMappingURL=style.css.map */

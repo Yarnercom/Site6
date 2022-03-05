@@ -1,0 +1,50 @@
+.building{
+  display: block;
+  padding: 56px 0 40px 0;
+  justify-content: center;
+  background-color: #E5E5E5;
+  &__title{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 58px;
+  }
+  &__subtitle{
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 126%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-top: 40px;
+  }
+  &__paragraph{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 158.5%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #626161;
+    margin-top: 40px;
+  }
+}
+.slider img{
+  width: 910px;
+  height: 534px;
+  border-radius: 20px;
+}
+.slider{
+  width: 100%;
+}
+.wrapper{
+  max-width: 1440px;
+}

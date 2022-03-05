@@ -1,0 +1,60 @@
+.header{
+  &__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+  }
+  &__title{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    z-index: 20;
+  }
+  &__navbar{
+    z-index: 20;
+    display: flex;
+    column-gap: 36px;
+    &-list{
+      list-style: none;
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 22px;
+      color: #000000;
+    }
+    &-link{
+      text-decoration: none;
+      color: #000000;
+      transition: .2s;
+    }
+    &-link:hover{
+      color: #FE8934;
+      transition: .2s;
+    }
+  }
+}
+
+.leftBar{
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.circle{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #FE8934;
+  border-radius: 50%;
+  transition: .5s;
+  z-index: 20;
+}
+.circle:hover{
+  transition: 1s;
+  position: relative;
+  background: url("../images/header/logo.jpeg") center/cover no-repeat;
+}

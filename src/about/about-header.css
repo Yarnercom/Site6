@@ -1,0 +1,40 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+.header__title {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  z-index: 20;
+}
+.header__navbar {
+  z-index: 20;
+  display: flex;
+  column-gap: 36px;
+}
+.header__navbar-list {
+  list-style: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+.header__navbar-link {
+  text-decoration: none;
+  color: #000000;
+  transition: 0.2s;
+}
+.header__navbar-link:hover {
+  color: #FE8934;
+  transition: 0.2s;
+}
+
+/*# sourceMappingURL=about-header.css.map */

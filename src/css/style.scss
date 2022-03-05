@@ -1,0 +1,30 @@
+@import "../fonts/poppins/stylesheet.css";
+@import "../fonts/montserrat/stylesheet.css";
+@import "../libs/fontello/css/fontello.css";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1112px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+$blue:#3456FE;
+
+
+@import "animation";
+@import "header";
+@import "first-screen";
+@import "real-state";
+@import "create-home";
+@import "home-for-families";
+@import "building";
+@import "contact-us";
+@import "footer";
+@import "popup-window";
+@import "media";

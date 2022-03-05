@@ -1,0 +1,94 @@
+.home-for-families{
+  background: #060928;
+  padding: 42px 0 546px;
+  position: relative;
+  &__title{
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin: 0 0 58px 0;
+  }
+  &__content{
+    display: flex;
+    column-gap: 96px;
+  }
+  &__col{
+    position: relative;
+    left: -157px;
+    &_img{
+    }
+    &_title{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 126%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 40px;
+    }
+    &_subtitle{
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 158.5%;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+      margin-bottom: 36px;
+    }
+  }
+  &__description{
+    margin-left: 550px;
+    margin-top: 154px;
+    z-index: 30;
+  }
+  &__row{
+    position: relative;
+    margin-top: 106px;
+    z-index: 30;
+    &_link{
+      transition: .4s;
+    }
+    &_link::before{
+      content: '';
+      transition: .2s;
+      color: #FFFFFF;
+    }
+    &_link:hover::before{
+      content: '';
+      border-bottom: 2px solid #FFFFFF;
+      position: absolute;
+      bottom: 0;
+      left: 54px;
+      width: 50%;
+      border-radius: 10px;
+      transition: .2s;
+      color: #FFFFFF;
+    }
+    &_link:hover{
+      position: relative;
+      margin-top: -20px;
+      transition: .4s;
+    }
+  }
+  &__block{
+    display: flex;
+    column-gap: 19px;
+    position: absolute;
+    right: 0;
+  }
+}
+.bg_img{
+  position: absolute;
+  top: 192px;
+  left: 0;
+  background: url("../images/home-for-families/BG.png") no-repeat;
+  width: 616px;
+  height: 798px;
+  z-index: 20;
+}

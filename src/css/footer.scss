@@ -1,0 +1,87 @@
+.footer{
+  padding: 258px 0 80px 0;
+  background: #3456FE;
+  &__container{
+    display: flex;
+    column-gap: 205px;
+  }
+  &__leftBar{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 35px;
+  }
+  &__circle{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .5s;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFC700;
+  }
+  &__circle:hover{
+    transition: 1s;
+    position: relative;
+    background: url("../images/header/logo.jpeg") center/cover no-repeat;
+  }
+  &__logo{
+    &_title{
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      color: #FFFFFF;
+    }
+    &_subtitle{
+      font-family: Poppins, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 158.5%;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+    }
+  }
+  &__sites-and-partners{
+    display: flex;
+    column-gap: 80px;
+    &_international{
+      display: flex;
+      flex-direction: column;
+    }
+    &_Partner{
+      display: flex;
+      flex-direction: column;
+    }
+    &_title{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 163.9%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 21px;
+    }
+    &_site{
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 163.9%;
+      letter-spacing: 0.02em;
+      color: #FFFFFF;
+      margin-bottom: 21px;
+    }
+    &_link{
+      color: #FFFFFF;
+      text-decoration: none;
+      transition: .2s;
+    }
+    &_link:hover{
+      color: #060928;
+      transition: .2s;
+    }
+  }
+}
